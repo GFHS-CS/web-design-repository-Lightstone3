@@ -1,0 +1,66 @@
+.titlebox {
+    width: 725px;
+    height: 90px;
+    border: 3px solid lightgrey;
+    border-radius: 25px;
+    padding-left: 10px;
+    line-height: 0.7;
+    margin-left: 125px;
+    background: url(https://silversanctuary.neocities.org/Redcoridor.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .box {
+    text-align: center;
+    width: 725px;
+    height: 315px;
+    border: 2px solid lightgrey;
+    border-radius: 25px;
+    padding: 10px;
+    color: White;
+    margin-left: 125px;
+    background: url(https://silversanctuary.neocities.org/Tahu_and_Vakama.png);
+    background-repeat: repeat;
+    
+  }
+  p {
+    color: Yellow;
+    font-family: serif;
+    
+  }
+  h1 {
+    color: rgb(255, 0, 0);
+    font-family: fantasy;
+  }
+  h2 {
+    color: rgb(255, 166, 0);
+    font-family: cursive;
+    
+  }
+  h3 {
+    color: rgb(81, 255, 0);
+    font-family: Monospace;
+  }
+  .s-table {
+    
+    width: 650px;
+    background-color: gray;
+    
+    font-family: Verdana;
+    .col1 
+      {width: 30%;}
+    .col2 
+      {width: 70%;}
+    .odd 
+      {background-color: rgb(164, 231, 164);
+        border: 2px dotted rgb(195, 194, 218);
+        height: 20%;}
+    .even 
+      {background-color: aqua;
+        height: 20%;}  
+    .cap
+        {font-size: 24px;}
+    th { border: 2px solid rgb(17, 0, 255);}
+    td { border: 2px dotted rgb(17, 0, 255);}
+    .collapse {border-collapse: collapse;}
+  }
