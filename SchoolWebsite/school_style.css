@@ -43,3 +43,53 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+body {
+  font-size:10px;
+  font: sans-serif;
+  line-height: 1.6;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  p::first-line {
+    text-indent:20px;
+  }
+}
+h1 {
+  font-size:20px;
+  font: serif;
+  float: center;
+  letter-spacing: 5px;
+}
+h2 {
+  font-size:15px;
+  font: serif;
+  letter-spacing: 5px;
+}
+
+a {
+  outline-color: transparent;
+}
+
+a:link {
+  color:#a66;
+  text-decoration: underline;
+}
+
+a:visited {
+  color:#865454;
+}
+
+a:focus {
+  color:#cd5c5c;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#ff0000;
+  text-decoration: none;
+}
+
+a:active {
+  color:#a66;
+  text-decoration: none;
+}
