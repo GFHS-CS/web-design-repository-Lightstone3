@@ -43,6 +43,7 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+ul {list-style-type: square;}
 
 body {
   font-size:10px;
@@ -68,6 +69,12 @@ h2 {
 
 a {
   outline-color: transparent;
+  background-image: url("external-link-52.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:16px;
+  display: inline;
 }
 
 a:link {
@@ -95,16 +102,11 @@ a:active {
   text-decoration: none;
 }
 
-article a[href^="http"]::after,
-article a[href^="https://"]::after
-  {
-    content: "";
-    width: 11px;
-    height: 11px;
-    margin-left: 4px;
-    background-image: url("SchoolWebsite/external-link-52.png' width='16' height='16' ");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
-  }
+.bar {
+  border-left: 5px solid red;
+  background-color: #f1f1f1;
+  list-style-type: none;
+  padding: 10px 20px;
+}
+
+   
