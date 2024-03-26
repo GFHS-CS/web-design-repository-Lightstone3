@@ -17,3 +17,15 @@
         padding: 10px;
         margin-right: auto;
         background-color: #0d1c1b;
+}
+.nav-bar{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        position: fixed ;
+        left: 0 ;
+        top: 0 ;
+        width: 100%;
+        list-style:none;
+       text-decoration: wavy;
+    }

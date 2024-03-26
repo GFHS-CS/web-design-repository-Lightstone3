@@ -64,3 +64,15 @@
     td { border: 2px dotted rgb(17, 0, 255);}
     .collapse {border-collapse: collapse;}
   }
+  .nav-bar{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: fixed ;
+    left: 0 ;
+    top: 0 ;
+    width: 100%;
+    list-style:none;
+   text-decoration: wavy;
+}
+  
